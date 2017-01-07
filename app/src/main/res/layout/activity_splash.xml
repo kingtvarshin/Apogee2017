@@ -10,29 +10,35 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1">
+        android:layout_weight="1"
+        android:gravity="center"
+        >
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:id="@+id/title"/>
+            android:id="@+id/title"
+            android:src="@drawable/apogeetitle"
+            android:background="@color/colorsplash"
+            android:padding="15dp"/>
     </LinearLayout>
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center">
+        android:gravity="center"
+        android:background="@color/colorsplash">
 
         <com.wang.avi.AVLoadingIndicatorView
             android:id="@+id/avi"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            style="@style/AVLoadingIndicatorView"
+            style="@style/AVLoadingIndicatorView.Large"
             android:visibility="visible"
             app:indicatorName="BallClipRotateMultipleIndicator"
-            app:indicatorColor="#000000"
-            />
+            app:indicatorColor="#B21825"
+        />
     </LinearLayout>
 
 

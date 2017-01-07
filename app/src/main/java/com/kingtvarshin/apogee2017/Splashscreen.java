@@ -31,7 +31,7 @@ public class Splashscreen extends Activity {
         avi = (AVLoadingIndicatorView)findViewById(R.id.avi);
         title = (ImageView)findViewById(R.id.title);
         startAnim();
-        Picasso.with(this).load(img).into(title);
+//        Picasso.with(this).load(img).into(title);
 
 
         new Handler().postDelayed(new Runnable() {
