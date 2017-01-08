@@ -37,7 +37,7 @@
             style="@style/AVLoadingIndicatorView.Large"
             android:visibility="visible"
             app:indicatorName="BallClipRotateMultipleIndicator"
-            app:indicatorColor="#B21825"
+            app:indicatorColor="#02b7b5"
         />
     </LinearLayout>
 
