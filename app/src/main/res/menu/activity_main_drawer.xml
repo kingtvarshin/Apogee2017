@@ -3,34 +3,57 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
+            android:id="@+id/nav_about"
             android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
+            android:title="About" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:id="@+id/nav_event"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Events" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
+            android:id="@+id/nav_schedule"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Schedule" />
         <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:id="@+id/nav_thinkagain"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Think Again" />
+        <item
+            android:id="@+id/nav_startup"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Startup Weekend" />
+        <item
+            android:id="@+id/nav_literary"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Literary Fest" />
+        <item
+            android:id="@+id/nav_workshop"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Workshop" />
+        <item
+            android:id="@+id/nav_exhibition"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Exhibition" />
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Map" />
     </group>
 
-    <item android:title="Communicate">
-        <menu>
-            <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
-            <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
-        </menu>
-    </item>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_sponsors"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Sponsors" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Contact Us" />
+        <item
+            android:id="@+id/nav_dev"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Developers" />
+    </group>
+
 
 </menu>
